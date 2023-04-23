@@ -1,0 +1,15 @@
+€•AŒsklearn.linear_model._base”ŒLinearRegression”“”)”}”(Œ
+fit_intercept”ˆŒ	normalize”Œ
+deprecated”Œcopy_X”ˆŒn_jobs”NŒpositive”‰Œfeature_names_in_”Œjoblib.numpy_pickle”ŒNumpyArrayWrapper”“”)”}”(Œsubclass”Œnumpy”Œ ndarray”“”Œshape”K…”Œorder”ŒC”Œdtype”hh“”ŒO8”‰ˆ‡”R”(KŒ|”NNNJÿÿÿÿJÿÿÿÿK?t”bŒ
+allow_mmap”‰ub€cnumpy.core.multiarray
+_reconstruct
+q cnumpy
+ndarray
+qK …qc_codecs
+encode
+qX   bqX   latin1q†qRq ‡qRq	(KK…q
+cnumpy
+dtype
+qX   O8q‰ˆ‡q
+Rq(KX   |qNNNJÿÿÿÿJÿÿÿÿK?tqb‰]q(X   AgeqX   Weightqetqb.•^       Œn_features_in_”KŒcoef_”h)”}”(hhhK…”hhhhŒf8”‰ˆ‡”R”(KŒ<”NNNJÿÿÿÿJÿÿÿÿK t”bh ˆub9òX`Íë?ïÞ=î“×?•u       Œ	_residues”Œnumpy.core.multiarray”Œscalar”“”h(CªÞ¦÷››@”†”R”Œrank_”KŒ	singular_”h)”}”(hhhK…”hhhh(h ˆub€¿‡ƒP@.g‡D”œ4@•>       Œ
+intercept_”h.h(CÂIšQA-E@”†”R”Œ_sklearn_version”Œ1.0.2”ub.
