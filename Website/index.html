@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    body {
+  
+  
+      background-image: url('https://elements-cover-images-0.imgix.net/6145669b-4d2d-4b40-a502-50f33b2ead5c?auto=compress%2Cformat&fit=max&w=1370&s=c94391ff37a9278f49f56bdf94497701.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TEAM VIKINGS</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static',filename='styles/index.css') }}"
+    />
+    <script src="validation.js"></script>
+  </head>
+  <body>
+    <style>
+      .main_heading {
+        color: white;
+      }
+    </style>
+    <header>
+    <h1 class="main_heading">Revolutionizing Indian Agriculture</h1></header>
+    
+  
+    <h3 class="sub_heading">
+      Fill out the form to get your Crop yield estimate!
+    </h3>
+
+    <form method="post" name="bpform">
+      
+        <label for="crop_type">Crop Type:</label>
+        <select name="crop_type" id="crop_type" required>
+          <option value="">--Select Crop Type--</option>
+          <option value="rice">Rice</option>
+          <option value="wheat">Wheat</option>
+          <option value="barley">Barley</option>
+          <option value="pulses">Pulses</option>
+        </select>
+        
+     
+        Pesticide_use <span style="color: #ff0000">*</span>
+        <input
+          type="number"
+          name="Pesticide_use"
+          ,
+          placeholder="Enter Pesticide Usage"
+          required
+        />
+      </span>
+  
+     
+      Avg_rainfall <span style="color: #ff0000">*</span>
+      <input
+        type="number"
+        name="Avg_rainfall"
+        ,
+        placeholder="Enter Average rainfall"
+        required
+      />
+     
+      Avg_temperature <span style="color: #ff0000">*</span>
+      <input
+        type="number"
+        name="Avg_temperature"
+        ,
+        placeholder="Enter temperature"
+        required
+      />
+      
+      Area_used <span style="color: #ff0000">*</span>
+      <input
+        type="number"
+        name="Area_used"
+        ,
+        placeholder="Enter Area used"
+        required
+      />
+      <br /><br />
+      <button value="Submit" id="stbtn">Calculate</button>
+    </form>
+
+  
+  <p style="font-size: 24px; font-weight: bold;color:yellow	;">Crop Yield: <span style="color: #228b22; font-size: 28px;">{{ output }}</span></p>
+  <p style="font-size: 18px; color: white; margin-top: 20px;">
+    According to the prediction, it is advisable to limit the use of pesticides to 99.144 kilograms per 159 litres of water to maintain a sustainable carbon value for the field. This is due to the fact that other factors such as average rainfall, temperature, and the year of plantation are anticipated to balance out the reduced pesticide usage, resulting in a successful crop yield. Therefore, it is recommended to reduce pesticide usage to promote sustainable farming practices while ensuring a profitable crop yield.
+  </body>
+</html>
