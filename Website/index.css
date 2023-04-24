@@ -1,0 +1,143 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  }
+  
+  header {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(to right, #196F3D, #004B23);
+  }
+  
+  header h1 {
+  font-size: 3.5em;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: white;
+  text-shadow: 2px 2px #333;
+  }
+  
+  form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  }
+  
+  form label {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+  color: #196F3D;
+  }
+  
+  #result-container {
+  text-align: center;
+  margin-top: 50px;
+  }
+  
+  #result-container h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #196F3D;
+  }
+  
+  #result-container p {
+  font-size: 1.6em;
+  margin-bottom: 20px;
+  color: #333;
+  }
+  
+  #result-container strong {
+  font-weight: bold;
+  color: #001f3f;
+  }
+  
+  form input[type="text"],
+  form input[type="number"] {
+  width: 40%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  outline: none;
+  }
+  
+  form input[type="text"]:focus,
+  form input[type="number"]:focus {
+  border-color: #196F3D;
+  }
+  
+  form select {
+  width: 40%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  outline: none;
+  }
+  
+  form select:focus {
+  border-color: #196F3D;
+  }
+  
+  form button {
+  background-color: #196F3D;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  }
+  
+  form button:hover {
+  background-color: #004B23;
+  }
+  
+  .main_heading {
+  font-weight: bold;
+  color: #196F3D;
+  font-size: 3em;
+  margin-top: 50px;
+  }
+  
+  .sub_heading {
+  font-weight: bold;
+  color: #196F3D;
+  font-size: 2em;
+  margin-bottom: 30px;
+  }
+  
+  p {
+  font-weight: 500;
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #333;
+  }
+  
+  @media only screen and (max-width: 768px) {
+  header h1 {
+  font-size: 2.5em;
+  }
+  
+  form label {
+  font-size: 1.1em;
+  }
+  
+  #result-container h2 {
+  font-size: 2em;
+  }
+  
+  #result-container p {
+  font-size: 1em;
+  }
+  }
